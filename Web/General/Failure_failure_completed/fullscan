@@ -1,0 +1,53 @@
+# Nmap 7.99 scan initiated Fri Jul 10 02:49:42 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -vvv -A -oN fullscan mysterious-sea.picoctf.net
+Nmap scan report for mysterious-sea.picoctf.net (3.130.79.223)
+Host is up, received reset ttl 64 (0.15s latency).
+rDNS record for 3.130.79.223: ec2-3-130-79-223.us-east-2.compute.amazonaws.com
+Scanned at 2026-07-10 02:49:43 IST for 27s
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE    SERVICE      REASON         VERSION
+22/tcp   open     ssh          syn-ack ttl 58 OpenSSH 9.6p1 Ubuntu 3ubuntu13.16 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 29:82:b9:29:bf:fc:17:9a:2e:2b:f0:66:11:c1:9e:4a (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBI0RVjtr1n+PI9T6bE0yrYpfGeW2HcE4V3gVUt0yoj/vkhin8zJT82SBGSnRmlzcW0IsetANyWmIZ3sfjTXXzA0=
+|   256 18:17:80:c7:d0:af:8e:89:ec:b0:01:84:81:3d:40:2d (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDQHN9Ja4rRPApp0RJe3hgaLe0ELiDj9/rXH5DfHFQbE
+135/tcp  filtered msrpc        no-response
+139/tcp  filtered netbios-ssn  no-response
+445/tcp  filtered microsoft-ds no-response
+1022/tcp filtered exp2         no-response
+1023/tcp filtered netvenuechat no-response
+1026/tcp filtered LSA-or-nterm no-response
+9898/tcp filtered monkeycom    no-response
+OS fingerprint not ideal because: Didn't receive UDP response. Please try again with -sSU
+No OS matches for host
+TCP/IP fingerprint:
+SCAN(V=7.99%E=4%D=7/10%OT=22%CT=1%CU=%PV=Y%DS=2%DC=T%G=N%TM=6A50108A%P=x86_64-pc-linux-gnu)
+SEQ(SP=104%GCD=1%ISR=10B%TI=Z%CI=Z%TS=A)
+SEQ(SP=107%GCD=1%ISR=10D%TI=Z%CI=Z%TS=A)
+OPS(O1=M4E2ST11NW8%O2=M4E2ST11NW8%O3=M4E2NNT11NW8%O4=M4E2ST11NW8%O5=M4E2ST11NW8%O6=M4E2ST11)
+WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)
+ECN(R=Y%DF=N%TG=40%W=F507%O=M4E2NNSNW8%CC=Y%Q=)
+T1(R=Y%DF=N%TG=40%S=O%A=S+%F=AS%RD=0%Q=)
+T2(R=N)
+T3(R=N)
+T4(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T5(R=Y%DF=N%TG=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)
+T6(R=Y%DF=Y%TG=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)
+T7(R=N)
+U1(R=N)
+IE(R=N)
+
+Uptime guess: 37.012 days (since Wed Jun  3 02:32:40 2026)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   28.91 ms Unit (192.168.1.1)
+2   3.55 ms  ec2-3-130-79-223.us-east-2.compute.amazonaws.com (3.130.79.223)
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 10 02:50:10 2026 -- 1 IP address (1 host up) scanned in 27.81 seconds
