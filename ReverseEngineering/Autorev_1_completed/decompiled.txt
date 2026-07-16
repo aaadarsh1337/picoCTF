@@ -1,0 +1,39 @@
+[38;2;58;150;221m// callconv: rax amd64 (rdi, rsi, rdx, rcx, r8, r9, xmm0, xmm1, xmm2, xmm3, xmm4);
+[0m[38;2;197;15;31mint[0m main ([38;2;197;15;31mint[0m argc, [38;2;197;15;31mchar[0m **argv, [38;2;197;15;31mchar[0m **envp) {
+    loc_0x00401136:
+        [38;2;58;150;221m// ICOD XREF from entry0 @ 0x401068(r)
+[0m        push (rbp)
+        rbp = rsp
+        rsp -= [38;2;19;161;14m0x10[0m
+        dword [var_4h] = [38;2;19;161;14m0x2ca4f5fe[0m
+        dword [var_8h] = [38;2;19;161;14m0[0m
+        edi = str.Whats_the_secret_ [38;2;58;150;221m// 0x402010 // "What's the secret?" // const char *s
+[0m        sym.imp.puts () [38;2;58;150;221m// int puts("What's the secret?")
+[0m        rax = var_8h
+        rsi = rax
+        edi = [38;2;19;161;14m0x402023[0m [38;2;58;150;221m// '# @' // "%u" // const char *format
+[0m        eax = [38;2;19;161;14m0[0m
+        sym.imp.__isoc99_scanf () [38;2;58;150;221m// int scanf("%u")
+[0m        eax = dword [var_8h]
+        v = dword [var_4h] - eax
+        [38;2;136;23;152mif[0m (v) [38;2;136;23;152mgoto[0m loc_0x401180 [38;2;58;150;221m// likely
+[0m        [38;2;136;23;152mgoto[0m loc_0x00401174;
+    loc_0x00401180:
+        [38;2;58;150;221m// CODE XREF from main @ 0x401172(x)
+[0m        edi = str.Nice_try_:_ [38;2;58;150;221m// 0x40202f // "Nice try :(" // const char *s
+[0m        sym.imp.puts () [38;2;58;150;221m// int puts("Nice try :")
+[0m        
+    loc_0x0040118a:
+        [38;2;58;150;221m// CODE XREF from main @ 0x40117e(x)
+[0m        eax = [38;2;19;161;14m0[0m
+        leave         [38;2;58;150;221m// rsp
+[0m        [38;2;136;23;152mreturn[0m
+        [38;2;136;23;152mreturn[0m rax;
+    loc_0x0040118a: [38;2;58;150;221m// orphan
+[0m         [38;2;58;150;221m// CODE XREF from main @ 0x40117e(x)
+[0m         eax = [38;2;19;161;14m0[0m
+         leave                    [38;2;58;150;221m// rsp
+[0m         [38;2;136;23;152mreturn[0m
+
+        [38;2;136;23;152mreturn[0m rax;
+}
