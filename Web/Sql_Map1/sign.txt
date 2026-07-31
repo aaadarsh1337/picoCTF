@@ -1,0 +1,16 @@
+POST /register.php HTTP/1.1
+Host: lonely-island.picoctf.net:58606
+Content-Length: 35
+Cache-Control: max-age=0
+Accept-Language: en-GB,en;q=0.9
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+Origin: http://lonely-island.picoctf.net:58606
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://lonely-island.picoctf.net:58606/register.php
+Accept-Encoding: gzip, deflate, br
+Cookie: PHPSESSID=a5b3718b0fd44611fc5a335b465d5494
+Connection: keep-alive
+
+username=username&password=password
