@@ -1,0 +1,15 @@
+POST /login HTTP/1.1
+Host: crystal-peak.picoctf.net:54612
+Content-Length: 35
+Cache-Control: max-age=0
+Accept-Language: en-GB,en;q=0.9
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+Origin: http://crystal-peak.picoctf.net:54612
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://crystal-peak.picoctf.net:54612/login
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+username=adam&password=adam&action=
