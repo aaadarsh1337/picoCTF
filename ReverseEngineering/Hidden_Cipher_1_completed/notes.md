@@ -1,3 +1,4 @@
+```md
 Deobfuscate the binary using
 
 `upx -d hiddencipher`
