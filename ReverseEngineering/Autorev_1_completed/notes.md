@@ -1,7 +1,7 @@
 ```md
 converting to binary:
 
-echo "that thing" | xxd -r -p > program
+`echo "that thing" | xxd -r -p > program`
 
 opening it in godbolt gives the plaintext secret, now need to figure how to do it within the time constraint
 
