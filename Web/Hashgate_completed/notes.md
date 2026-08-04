@@ -1,3 +1,4 @@
+```md
 Found this in the source:
 
 `<!-- Email: guest@picoctf.org Password: guest -->`
