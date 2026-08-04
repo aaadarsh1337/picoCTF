@@ -1,3 +1,5 @@
+```md
+
 Putting a random ' in the username gives an error while generating report
 The error seems to be from sqlite
 
