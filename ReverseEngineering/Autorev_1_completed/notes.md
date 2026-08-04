@@ -1,3 +1,4 @@
+```md
 converting to binary:
 
 echo "that thing" | xxd -r -p > program
@@ -9,4 +10,4 @@ write script to take that line and do it 20 times
 
 TIP: not using .strip() was causing issues with the key
 
-picoCTF{4u7o_r3v_g0_brrr_78c345aa}
+`picoCTF{4u7o_r3v_g0_brrr_78c345aa}`
